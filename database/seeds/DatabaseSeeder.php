@@ -11,6 +11,5 @@ class DatabaseSeeder extends Seeder
         $this->call(ColorSettingSeeder::class);
         $this->call(MediaSettingSeeder::class);
         $this->call(SectionSettingSeeder::class);
-        $this->call(MySeeder::class);
     }
 }
