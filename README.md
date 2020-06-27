@@ -1,79 +1,77 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+## About BTC Portfolio Website
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+BTC Portfolio is a responsive Personal Portfolio Laravel Script It’s suitable for Resume or Portfolio websites. This Script can be used for personal portfolio, artist portfolio and freelancer portfolio and coder, company, web developer. It’s comfortable with Laptops, tablets, mobiles or any device. BTC Portfolio is 100% responsive and supports the most popular browsers. All codes are clean and nicely commented.
 
-## About Laravel
+-   Fully Dynamic.
+-   Customizable Color and Media Easily.
+-   Enable and Disable any Section With One Click.
+-   User Friendly.
+-   Custom Css or Js.
+-   Laravel 7.x.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Developing
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**Getting Started**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+*Clone this repo:*
 
-## Learning Laravel
+```
+git clone https://github.com/InfernoX0/Portfolio-Website.git
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+*Install php dependencies:*
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```
+composer install
+```
 
-## Laravel Sponsors
+*Copy the env.example file to .env and generate new key:*
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```
+cp .env.example .env
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-- [云软科技](http://www.yunruan.ltd/)
+php artisan key:generate
+```
 
-## Contributing
+*Go to the .env file and change the database credentials to your database:*
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+*Migrate the database:*
 
-## Code of Conduct
+```
+php artisan migrate
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**Workflow**
 
-## Security Vulnerabilities
+*Serve the project:*
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```
+php artisan serve
+```
+
+*Login and access project* 
+
+Login logic is contained in the /login route in the underlying Laravel instance. To login and access the project, simply hit the /login route A user will be logged in and you will be redirected to /manager. Hitting the login route also reruns the migrations and seeds it or use the keyboard shortcut.
+
+```
+shift + z
+```
+
+and use the default email : **admin@admin.com** and password : **password**
+
+## Built with
+
+-   **[Vue.js as a JavaScript framework](https://vuejs.org/)**
+-   **[Laravel as a PHP framework used as an API endpoint](https://laravel.com/)**
+-   **[Bootstrap as a CSS framework](https://getbootstrap.com/)**
+-   **[AdminLTE as Admin Panel](https://adminlte.io/)**
+
+## Browser / OS / Device support
+
+-   IE 11, Edge, Chrome, Firefox, Safari, Opera
+-   Windows, Mac, iOS, Android
+-   Desktop, Tablet, Mobile
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+BTC Portfolio is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
