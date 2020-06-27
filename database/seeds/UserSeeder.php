@@ -12,18 +12,18 @@ class UserSeeder extends Seeder
     public function run()
     {
         $user = \App\User::create([
-            'name' => 'Ahmad Shebbo',
-            'email' => 'ahmadshebbo97@gmail.com',
+            'name' => 'Admin',
+            'email' => 'admin@admin.com',
             'password' => bcrypt('password'),
         ]);
 
         App\Profile::create([
             'user_id' => $user->id,
-            'about' => "I'm a University Student studying Computer Science to get my Bachelor Degree. I got interested in web designing first class i took and i'm always interested in learning more.",
-            'phone' => '76864760',
-            'address' => 'Lebanon / Beirut',
-            'street' => '1234 Barja Hakroun',
-            'DOB' => '1997-08-07',
+            'about' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            'phone' => '00 000 000',
+            'address' => 'Place / City',
+            'street' => '1234 Lorem Ipsum',
+            'DOB' => '1979-01-01',
         ]);
     }
 }
