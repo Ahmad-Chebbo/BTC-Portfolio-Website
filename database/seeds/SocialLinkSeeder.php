@@ -14,42 +14,42 @@ class SocialLinkSeeder extends Seeder
         App\SocialLink::create([
             'title' => 'Facebook',
             'icon' => 'fa-facebook-official',
-            'url' => 'https://www.facebook.com/Inferno.X00',
+            'url' => 'https://www.facebook.com/',
             'enabled' => '1',
         ]);
 
         App\SocialLink::create([
             'title' => 'Instagram',
             'icon' => 'fa-instagram',
-            'url' => 'https://www.instagram.com/ahmad_shebbo/',
+            'url' => 'https://www.instagram.com/',
             'enabled' => '1',
         ]);
 
         App\SocialLink::create([
             'title' => 'Twitter',
             'icon' => 'fa-twitter',
-            'url' => 'https://twitter.com/Ahmad_Shebbo',
+            'url' => 'https://twitter.com/',
             'enabled' => '1',
         ]);
 
         App\SocialLink::create([
             'title' => 'Medium',
             'icon' => 'fa-medium',
-            'url' => 'https://medium.com/@ahmadchebbo',
+            'url' => 'https://medium.com/',
             'enabled' => '1',
         ]);
 
         App\SocialLink::create([
             'title' => 'Github',
             'icon' => 'fa-github',
-            'url' => 'https://github.com/AhmadShebbo',
+            'url' => 'https://github.com/',
             'enabled' => '1',
         ]);
 
         App\SocialLink::create([
             'title' => 'Linked In',
             'icon' => 'fa-linkedin',
-            'url' => 'https://www.linkedin.com/in/ahmad-chebbo-b99454148/',
+            'url' => 'https://www.linkedin.com/',
             'enabled' => '1',
         ]);
 
@@ -62,7 +62,7 @@ class SocialLinkSeeder extends Seeder
         App\SocialLink::create([
             'title' => 'Stack Overflow',
             'icon' => 'fa-stack-overflow',
-            'url' => 'https://stackoverflow.com/users/10646351/ahmad-shebbo',
+            'url' => 'https://stackoverflow.com/o',
             'enabled' => '1',
         ]);
 
