@@ -13,6 +13,6 @@
         </script> All rights reserved | Design with
         <i class="ion-heart" aria-hidden="true"></i> 
         by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-        <br>Developed by <a href="{{ $socials[0]->url }}" target="_blank">Ahmad Shebbo</a>
+        <br>Developed by <a href="https://github.com/InfernoX0" target="_blank">Ahmad Shebbo</a>
     </p>
 </footer>
