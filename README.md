@@ -16,7 +16,7 @@ BTC Portfolio is a responsive Personal Portfolio Laravel Script It’s suitable 
 *Clone this repo:*
 
 ```
-git clone https://github.com/InfernoX0/BTC-Portfolio-Website.git
+git clone https://github.com/Ahmad-Chebbo/BTC-Portfolio-Website.git
 ```
 
 *Install php dependencies:*
