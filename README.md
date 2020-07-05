@@ -35,10 +35,10 @@ php artisan key:generate
 
 *Go to the .env file and change the database credentials to your database:*
 
-*Migrate the database:*
+*Migrate the database and the seeds:*
 
 ```
-php artisan migrate
+php artisan migrate:fresh --seed
 ```
 
 **Workflow**
@@ -51,7 +51,7 @@ php artisan serve
 
 *Login and access project* 
 
-Login logic is contained in the /login route in the underlying Laravel instance. To login and access the project, simply hit the /login route A user will be logged in and you will be redirected to /manager. Hitting the login route also reruns the migrations and seeds it or use the keyboard shortcut.
+Login logic is contained in the /login route in the underlying Laravel instance. To login and access the project, simply hit the /login route A user will be logged in and you will be redirected to /manager. Hitting the login route also retuns the migrations and seeds it or use the keyboard shortcut to redirect to the login page.
 
 ```
 shift + z
