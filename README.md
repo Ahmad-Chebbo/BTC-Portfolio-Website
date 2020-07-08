@@ -1,6 +1,6 @@
 ## About BTC Portfolio Website
 
-BTC Portfolio is a responsive Personal Portfolio Laravel Script It’s suitable for Resume or Portfolio websites. This Script can be used for personal portfolio, artist portfolio and freelancer portfolio and coder, company, web developer. It’s comfortable with Laptops, tablets, mobiles or any device. BTC Portfolio is 100% responsive and supports the most popular browsers. All codes are clean and nicely commented.
+BTC Portfolio is a responsive Personal Portfolio Laravel Script It’s suitable for Resume or Portfolio websites. This Script can be used for personal portfolio, artist portfolio and freelancer portfolio and coder, company, web developer. It’s comfortable with Laptops, tablets, mobiles or any device. BTC Portfolio is 100% responsive and supports the most popular browsers.
 
 -   Fully Dynamic.
 -   Customizable Color and Media Easily.
